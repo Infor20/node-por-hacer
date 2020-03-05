@@ -54,7 +54,6 @@ const actualizar = (descripcion, completado = true) => {
     }
 }
 
-
 const borrar = (descripcion) => {
     cargarDB();
 
