@@ -12,10 +12,10 @@ switch (comando) {
     case 'listar':
         let listado = porHacer.getListado();
         for (let tarea of listado) {
-            console.log('====Por Hacer====='.green);
+            console.log('====Por Hacer===='.green);
             console.log(tarea.descripcion);
             console.log('Estado: ', tarea.completado);
-            console.log('=================='.green);
+            console.log('================='.green);
         }
         break;
     case 'actualizar':
