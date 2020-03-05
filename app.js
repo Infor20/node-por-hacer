@@ -1,4 +1,3 @@
-//const argv = require('yargs').argv;
 const argv = require('./config/yargs.js').argv;
 const porHacer = require('./por-hacer/por-hacer.js');
 const colors = require('colors');
