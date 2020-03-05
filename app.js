@@ -32,5 +32,4 @@ switch (comando) {
 
     default:
         console.log('No se encuentra este comando');
-
 }
